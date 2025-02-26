@@ -9,9 +9,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class Main {
-    private static final String DB_URL = "jdbc:oracle:thin:@220.118.0.221:1521:mania"; // DB 접속 URL
-    private static final String DB_USER = "netmania"; // DB 사용자명
-    private static final String DB_PASSWORD = "tpsemqlf"; // DB 비밀번호
+    private static final String DB_URL = "jdbc:oracle:thin:@localhost:test"; // DB 접속 URL
+    private static final String DB_USER = "test"; // DB 사용자명
+    private static final String DB_PASSWORD = "test"; // DB 비밀번호
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
